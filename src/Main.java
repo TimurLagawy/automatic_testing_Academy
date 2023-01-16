@@ -923,7 +923,7 @@ Random random = new Random();
         System.out.println("номера в массиве четных значений");
 
         for (int i = 0; i < 10; i++) {
-            if (mass[i] % 2 ==0);
+            if (mass[i] % 2 ==0)
             //вывод значений массива System.out.print(mass[i] + " ");
             System.out.println(i + " ");
         }
