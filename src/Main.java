@@ -907,7 +907,8 @@ Random random = new Random();
 
         }
         }
-        */int mass[] = new int[10];
+        *//* номера в массиве четных значений
+        int mass[] = new int[10];
         mass[0] = 2;
         mass[1] = 9;
         mass[2] = 7;
@@ -923,8 +924,27 @@ Random random = new Random();
 
         for (int i = 0; i < 10; i++) {
             if (mass[i] % 2 ==0);
-            System.out.print(i + " ");
-
+            //вывод значений массива System.out.print(mass[i] + " ");
+            System.out.println(i + " ");
         }
     }
-}
+}*/ int mass[] = new int[10];
+        mass[0] = 2;
+        mass[1] = 9;
+        mass[2] = 7;
+        mass[3] = 4;
+        mass[4] = 9;
+        mass[5] = 2;
+        mass[6] = 3;
+        mass[7] = 8;
+        mass[8] = 4;
+        mass[9] = 1;
+
+        System.out.println("minimal numerous");
+int min =mass[0];
+        for (int i = 0; i < 10; i++) {
+            if (mass[i] < min)
+            min= mass[i];
+
+        }System.out.println(min + "=minimum");
+    }}
